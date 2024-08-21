@@ -1,41 +1,67 @@
-﻿using Lab2_MAB;
-using System.Linq.Expressions;
-
+﻿using Lab3_MAB;
+using System;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 public class Program
 {
     public static void Main()
     {
-        //DivisionError d1 = new DivisionError();
-        //d1.showException();
+        //Lab3A1 a1 = new Lab3A1();
+        //Lab3A1 a2 = new Lab3A1();
+        //int resultA = a1.Addition(20, 30);
+        //float resultB = a2.Addition(20, 30);
 
-        //OutOfBound o1 = new OutOfBound();
-        //o1.ShowOutOfBound();
+        //Console.WriteLine("Addition of Integers ==> " + resultA);
 
-        //StringChange s1 = new StringChange();
-        //s1.GetData();
+        //Console.WriteLine("Addition of Floats ==> " + resultB);
 
-        //Calculate c1 = new Calculate();
-        //int resultA = c1.SumOfTwo(10, 20);
-        //int resultB = c1.SumOfThree(10,20,30);
-        //Console.WriteLine("Result of Two numbers ==> " + resultA);
-        //Console.WriteLine("Result of Three numbers ==> " + resultB);
+        //Lab3A2 a1 = new Lab3A2();
+        //double resultA = a1.Area(5);
+        //double resultB = a1.Area(5,10);
 
-        //Result r1 = new Result();
-        //r1.Addition();
-        //r1.Subtraction();
+        //Console.WriteLine("Area of Square ==> " + resultA);
 
-        //StringMethods s1 = new StringMethods();
-        //s1.showMethods();
+        //Console.WriteLine("Area of Rectangle ==> " + resultB);
 
-        //EvenException e1 = new EvenException();
-        //e1.ShowData();
+        //HDFC h1 = new HDFC();
+        //double resultA = h1.CalculateInterest(10, 20, 30);
 
-        //Shape s1 = new Shape();
-        //double resultA = s1.Circle(3);
-        //double resultB = s1.Square(3);
-        //double resultC = s1.Triangle(10, 30);
-        //Console.WriteLine(resultA);
-        //Console.WriteLine(resultB);
-        //Console.WriteLine(resultC);
+        //SBI s1 = new SBI();
+        //double resultB = s1.CalculateInterest(20, 30, 40);
+
+        //ICICI i1 = new ICICI();
+        //double resultC = i1.CalculateInterest(30, 40, 50);
+
+        //Console.WriteLine("Interest Rate for HDFC ==> " + resultA);
+        //Console.WriteLine("Interest Rate for SBI ==> " + resultB);
+        //Console.WriteLine("Interest Rate for ICICI ==> " + resultC);
+
+        //Lab3A4 a4 = new Lab3A4();
+        //a4.Display();
+        //a4.Yellow();
+        //a4.Green();
+        //a4.Red();
+        //a4.Calculate();
+
+        //Apollo a1 = new Apollo();
+        //a1.HospitalDetails();
+
+        //WorkHard w1 = new WorkHard();
+        //w1.HospitalDetails();
+
+        //Gokul g1 = new Gokul();
+        //g1.HospitalDetails();
+
+        //Lab3B6 l6 = new Lab3B6();
+        //int resultA = l6.FindArea(5);
+        //double resultB =  l6.FindArea(4, 5);
+        //double resultC = l6.FindArea(3.14);
+
+        //Console.WriteLine("Area of Square ==> " + resultA);
+
+        //Console.WriteLine("Area of Rectangle ==> " + resultB);
+
+        //Console.WriteLine("Area of Circle ==> " + resultC);
+
     }
 }
