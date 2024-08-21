@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectAdminPanel_MAB.Models;
+using ProjectASP.NET_MAB.Models;
 using System.Diagnostics;
 
-namespace ProjectAdminPanel_MAB.Controllers
+namespace ProjectASP.NET_MAB.Controllers
 {
     public class HomeController : Controller
     {
@@ -18,169 +18,46 @@ namespace ProjectAdminPanel_MAB.Controllers
             return View();
         }
 
-        public IActionResult ChartsApexCharts()
+        public IActionResult About()
         {
             return View();
         }
 
-        public IActionResult ChartsChartJS()
+        public IActionResult Contact()
         {
             return View();
         }
 
-        public IActionResult ChartsECharts()
+        public IActionResult Courses()
         {
             return View();
         }
 
-        public IActionResult ComponentAccordian() {
-            return View();
-        }
-
-        public IActionResult ComponentAlerts() {
-            return View();
-        }
-
-        public IActionResult ComponentBadges()
+        public IActionResult Trainers()
         {
             return View();
         }
 
-        public IActionResult ComponentBreadCrumbs()
+        public IActionResult Pricing()
         {
             return View();
         }
 
-        public IActionResult ComponentButtons()
+        public IActionResult Events()
         {
             return View();
         }
 
-        public IActionResult ComponentCards()
+        public IActionResult CourseDetails() {
+         
+            return View();
+        
+        }
+
+        public IActionResult GetStarted()
         {
             return View();
         }
-
-        public IActionResult ComponentCarousel()
-        {
-            return View();
-        }
-
-        public IActionResult ComponentListGroup()
-        {
-            return View();
-        }
-
-        public IActionResult ComponentModal()
-        {
-            return View();
-        }
-
-        public IActionResult ComponentPagination()
-        {
-            return View();
-        }
-
-        public IActionResult ComponentProgress()
-        {
-            return View();
-        }
-
-        public IActionResult ComponentSpinners()
-        {
-            return View();
-        }
-
-        public IActionResult ComponentTabs()
-        {
-            return View();
-        }
-
-        public IActionResult ComponentToolTips()
-        {
-            return View();
-        }
-
-        public IActionResult FormEditors()
-        {
-            return View();
-        }
-
-        public IActionResult FormElements()
-        {
-            return View();
-        }
-
-        public IActionResult FormLayout()
-        {
-            return View();
-        }
-
-        public IActionResult FormValidation()
-        {
-            return View();
-        }
-
-        public IActionResult IconsBootstrap()
-        {
-            return View();
-        }
-
-        public IActionResult IconBoxIcons()
-        {
-            return View();
-        }
-
-        public IActionResult IconsRemix()
-        {
-            return View();
-        }
-
-        public IActionResult PagesBlank()
-        {
-            return View();
-        }
-
-        public IActionResult PagesContact()
-        {
-            return View();
-        }
-
-        public IActionResult PagesError404()
-        {
-            return View();
-        }
-
-        public IActionResult PagesFAQ()
-        {
-            return View();
-        }
-
-        public IActionResult PagesLogin()
-        {
-            return View();
-        }
-
-        public IActionResult PagesRegister()
-        {
-            return View();
-        }
-
-        public IActionResult TablesData()
-        {
-            return View();
-        }
-
-        public IActionResult TablesGeneral()
-        {
-            return View();
-        }
-
-        public IActionResult UserProfile()
-        {
-            return View();
-        }
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,4 +1,4 @@
-namespace ProjectAdminPanel_MAB.Models
+namespace ProjectASP.NET_MAB.Models
 {
     public class ErrorViewModel
     {
