@@ -1,53 +1,41 @@
-﻿using Lab1_MAB;
-using System;
-using System.Security.AccessControl;
+﻿using Lab2_MAB;
+using System.Linq.Expressions;
 
 public class Program
 {
     public static void Main()
     {
-        //Candidate c1 = new Candidate();
-        //c1.getData();
-        //c1.Display();
+        //DivisionError d1 = new DivisionError();
+        //d1.showException();
 
-        //Staff s1 = new Staff();
-        //s1.getData();
-        //s1.Display();
+        //OutOfBound o1 = new OutOfBound();
+        //o1.ShowOutOfBound();
 
-        //Account a1 = new Account();
-        //a1.getData();
-        //Console.WriteLine("==========");
-        //a1.Display();
+        //StringChange s1 = new StringChange();
+        //s1.GetData();
 
-        //Student s1 = new Student(101,"qwerty",5,9.9,9.9);
-        //s1.Display();
+        //Calculate c1 = new Calculate();
+        //int resultA = c1.SumOfTwo(10, 20);
+        //int resultB = c1.SumOfThree(10,20,30);
+        //Console.WriteLine("Result of Two numbers ==> " + resultA);
+        //Console.WriteLine("Result of Three numbers ==> " + resultB);
 
-        //Rectangle r1 = new Rectangle(10,30);
-        //r1.evaluate();
+        //Result r1 = new Result();
+        //r1.Addition();
+        //r1.Subtraction();
 
-        //Account_Details d1 = new Account_Details();
+        //StringMethods s1 = new StringMethods();
+        //s1.showMethods();
 
-        //Interest i1 = new Interest();
-        //i1.GetData();
-        //i1.Display();
+        //EvenException e1 = new EvenException();
+        //e1.ShowData();
 
-        //Salary s1 = new Salary(100,25.32);
-        //s1.CalculateTotalSalary();
-
-        //Distance d1 = new Distance(123.5,456.725);
-        //d1.AddDistances();
-        //d1.DisplayAddition();
-
-        //Table t1 = new Table();
-        //t1.DisplayTableDetails();
-
-        //Employee e1 = new Employee
-        //{
-        //    Name = "A"
-        //};
-        //SalaryB s1 = new SalaryB(1000,2000,3000);
-        //e1.basic_sal(5000);
-        //s1.Disp_sal();
-        //s1.Gross_sal();
+        //Shape s1 = new Shape();
+        //double resultA = s1.Circle(3);
+        //double resultB = s1.Square(3);
+        //double resultC = s1.Triangle(10, 30);
+        //Console.WriteLine(resultA);
+        //Console.WriteLine(resultB);
+        //Console.WriteLine(resultC);
     }
 }
